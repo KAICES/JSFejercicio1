@@ -69,4 +69,18 @@ public class PruebaBb {
         
     }
     
+    public String comprobar(){
+        
+        String retorno = "";
+        
+        if(getUser().compareTo("prueba")==0 && getPwd().compareTo("prueba")==0){
+            retorno = "bien";
+        }else{
+            retorno = "mal";
+        }
+        return retorno;
+    }
+    
+    
+    
 }

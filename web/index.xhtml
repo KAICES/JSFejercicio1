@@ -38,7 +38,10 @@
                 <h:column rowHeader="Password">                
                     <h:outputText value="#{usuario.pwdVo}"></h:outputText>                    
                 </h:column>         
-            </h:dataTable>            
+            </h:dataTable> 
+            
+            <h:commandButton value="comprobar" action="#{pruebaBb.comprobar()}"/>
+            
         </h:panelGroup>     
     </h:form>
     </h:body>
